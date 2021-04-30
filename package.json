@@ -1,0 +1,24 @@
+{
+  "pkg": {
+    "assets": "images/icon.png",
+    "targets": [ "node14-win-x64" ],
+    "outputPath": "dist"
+  },
+  "name": "notice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": "main.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "node-notifier": "^9.0.1",
+    "open": "^8.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
